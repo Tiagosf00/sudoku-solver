@@ -34,7 +34,7 @@ def check(x, y, value, board):
 
 # Find all the possible solutions recursively.
 def solve(board):
-    # We can do some pruning, maybe pass the last cell changed,
+    # We could do some pruning, maybe pass the last cell changed,
     # so we can iterate starting from it.
     for i in range(9):
         for j in range(9):
